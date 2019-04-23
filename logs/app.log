@@ -1,0 +1,901 @@
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:17:58 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:17:58 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:17:58 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6743e411
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@185a6e9
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-25 at 22:17:58 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@79079097
+2019-03-25 at 22:17:58 CST INFO  com.bee.server.HttpServer 45 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:17:58 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 552 (auto-detected)
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:17:58 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:17:58 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:17:58 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:19:20 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:19:20 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:19:20 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:19:20 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6743e411
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@185a6e9
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-25 at 22:19:20 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@79079097
+2019-03-25 at 22:19:21 CST INFO  com.bee.server.HttpServer 45 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:19:21 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 573 (auto-detected)
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:19:21 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:19:21 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:19:21 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:19:56 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:19:56 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:19:56 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1aafa419
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@55182842
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3270d194
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@235834f2
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5656be13
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4218d6a3
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@76505305
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@14cd1699
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3590fc5b
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@397fbdb
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@33d512c1
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@515c6049
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@639c2c1d
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5fe94a96
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@443118b0
+2019-03-25 at 22:19:56 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@765d7657
+2019-03-25 at 22:19:56 CST INFO  com.bee.server.HttpServer 45 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:19:56 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 592 (auto-detected)
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:19:56 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:19:56 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:19:56 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:20:02 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-25 at 22:20:02 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-25 at 22:20:02 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4a7c9b8a
+2019-03-25 at 22:20:02 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-25 at 22:20:02 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-25 at 22:20:02 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-25 at 22:20:02 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-25 at 22:22:03 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="16b2798a-b344-4cb2-a94e-adf77c784235"
+2019-03-25 at 22:22:06 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="367c8f94-2ccd-44d2-abda-53f92b998ae1"
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:30:57 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:30:57 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:30:57 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@662ac478
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-25 at 22:30:57 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-25 at 22:30:57 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:30:57 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 678 (auto-detected)
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:30:57 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:30:57 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:30:57 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:31:02 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-25 at 22:31:02 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-25 at 22:31:02 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@58b9a689
+2019-03-25 at 22:31:02 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-25 at 22:31:02 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-25 at 22:31:02 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-25 at 22:31:02 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:31:30 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:31:30 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:31:30 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:31:30 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@229f66ed
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6743e411
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb25e1a
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@74e52ef6
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6ed3ccb2
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:31:30 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:31:30 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:31:31 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 684 (auto-detected)
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:31:31 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:31:31 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:31:31 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:31:33 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-25 at 22:31:33 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-25 at 22:31:33 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d01642c
+2019-03-25 at 22:31:33 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-25 at 22:31:33 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-25 at 22:31:33 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-25 at 22:31:33 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:36:51 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:36:51 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:36:51 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@662ac478
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-25 at 22:36:51 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-25 at 22:36:51 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:36:51 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 741 (auto-detected)
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:36:51 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:36:51 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:36:51 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-25 at 22:38:26 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-25 at 22:38:26 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-25 at 22:38:26 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@229f66ed
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6743e411
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb25e1a
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@74e52ef6
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6ed3ccb2
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-25 at 22:38:26 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-25 at 22:38:26 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-03-25 at 22:38:26 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 754 (auto-detected)
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-25 at 22:38:26 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-25 at 22:38:26 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-25 at 22:38:26 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-31 at 00:30:35 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-31 at 00:30:35 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-31 at 00:30:35 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-31 at 00:30:35 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@229f66ed
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6743e411
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb25e1a
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@74e52ef6
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6ed3ccb2
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-31 at 00:30:35 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-31 at 00:30:36 CST INFO  com.bee.server.HttpServer 46 startServer - server start ip:localhost port:8080
+2019-03-31 at 00:30:36 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 5441 (auto-detected)
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-31 at 00:30:36 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-31 at 00:30:36 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-31 at 00:30:36 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-31 at 00:30:41 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-31 at 00:30:41 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-31 at 00:30:41 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6409af0a
+2019-03-31 at 00:30:41 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-31 at 00:30:41 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-31 at 00:30:41 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-31 at 00:30:41 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-31 at 00:31:39 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-31 at 00:31:39 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-31 at 00:31:39 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@662ac478
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-31 at 00:31:39 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-31 at 00:31:39 CST INFO  com.bee.server.HttpServer 46 startServer - server start ip:localhost port:8080
+2019-03-31 at 00:31:39 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 5462 (auto-detected)
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-31 at 00:31:39 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-31 at 00:31:39 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-31 at 00:31:39 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-31 at 00:31:43 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-31 at 00:31:43 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-31 at 00:31:43 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2600165
+2019-03-31 at 00:31:43 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-31 at 00:31:43 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-31 at 00:31:43 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-31 at 00:31:43 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-31 at 00:37:19 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-31 at 00:37:19 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-31 at 00:37:19 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@662ac478
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-31 at 00:37:19 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-31 at 00:37:19 CST INFO  com.bee.server.HttpServer 46 startServer - server start ip:localhost port:8080
+2019-03-31 at 00:37:19 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 5501 (auto-detected)
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-31 at 00:37:19 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-31 at 00:37:19 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-31 at 00:37:19 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-31 at 00:37:25 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-31 at 00:37:25 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-31 at 00:37:25 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2600165
+2019-03-31 at 00:37:25 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-31 at 00:37:25 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-31 at 00:37:25 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-31 at 00:37:25 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-31 at 00:39:29 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="048893fe-9917-4162-82e7-27296047c5df"
+2019-03-31 at 00:51:08 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="048893fe-9917-4162-82e7-27296047c5df"
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-03-31 at 00:54:43 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-03-31 at 00:54:43 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-03-31 at 00:54:43 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@662ac478
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@477b4cdf
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@77c2494c
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1a677343
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15de0b3c
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-03-31 at 00:54:43 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-03-31 at 00:54:43 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-03-31 at 00:54:43 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 5613 (auto-detected)
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-03-31 at 00:54:43 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-03-31 at 00:54:43 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-31 at 00:54:43 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-31 at 00:54:48 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-03-31 at 00:54:48 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-03-31 at 00:54:48 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@29284448
+2019-03-31 at 00:54:48 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-03-31 at 00:54:48 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-03-31 at 00:54:48 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-03-31 at 00:54:48 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-03-31 at 00:56:55 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="048893fe-9917-4162-82e7-27296047c5df"
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-04-24 at 00:20:09 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-04-24 at 00:20:09 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-04-24 at 00:20:09 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb25e1a
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@185a6e9
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6f03482
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@79079097
+2019-04-24 at 00:20:09 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4d1c00d0
+2019-04-24 at 00:20:09 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-04-24 at 00:20:09 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 6417 (auto-detected)
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-04-24 at 00:20:09 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-04-24 at 00:20:09 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-04-24 at 00:20:09 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-24 at 00:20:24 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-04-24 at 00:20:24 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-04-24 at 00:20:24 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@29284448
+2019-04-24 at 00:20:24 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-04-24 at 00:20:24 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-04-24 at 00:20:24 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-04-24 at 00:20:24 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019-04-24 at 00:21:18 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019-04-24 at 00:21:18 CST DEBUG io.netty.channel.nio.NioEventLoop 105 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019-04-24 at 00:21:18 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 927 isOsx0 - Platform: MacOS
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 953 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 1060 tmpdir0 - -Dio.netty.tmpdir: /var/folders/2n/n7r5b9tn03ld1sqlp_19lm3r0000gn/T (java.io.tmpdir)
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 1139 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 158 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 165 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.noPreferDirect: false
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 821 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb25e1a
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f5958c9
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@233795b6
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3eb738bb
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5bda8e08
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1e800aaa
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@185a6e9
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6f03482
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@489115ef
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3857f613
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@198b6731
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c6908d7
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c9754d8
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bf7ca37
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@79079097
+2019-04-24 at 00:21:18 CST TRACE io.netty.channel.nio.NioEventLoop 254 openSelector - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4d1c00d0
+2019-04-24 at 00:21:18 CST INFO  com.bee.server.HttpServer 47 startServer - server start ip:localhost port:8080
+2019-04-24 at 00:21:18 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 6434 (auto-detected)
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-04-24 at 00:21:18 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:08:4c:e0 (auto-detected)
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019-04-24 at 00:21:18 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 128 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 129 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 131 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 136 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 140 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 141 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 144 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 146 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.PooledByteBufAllocator 147 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.ByteBufUtil 84 <clinit> - -Dio.netty.allocator.type: pooled
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.ByteBufUtil 93 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-04-24 at 00:21:18 CST DEBUG io.netty.buffer.ByteBufUtil 96 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-24 at 00:21:21 CST DEBUG io.netty.buffer.AbstractByteBuf 62 <clinit> - -Dio.netty.buffer.checkAccessible: true
+2019-04-24 at 00:21:21 CST DEBUG io.netty.buffer.AbstractByteBuf 63 <clinit> - -Dio.netty.buffer.checkBounds: true
+2019-04-24 at 00:21:21 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 202 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4eb4bb84
+2019-04-24 at 00:21:21 CST DEBUG io.netty.util.Recycler 96 <clinit> - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-04-24 at 00:21:21 CST DEBUG io.netty.util.Recycler 97 <clinit> - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-04-24 at 00:21:21 CST DEBUG io.netty.util.Recycler 98 <clinit> - -Dio.netty.recycler.linkCapacity: 16
+2019-04-24 at 00:21:21 CST DEBUG io.netty.util.Recycler 99 <clinit> - -Dio.netty.recycler.ratio: 8
+2019-04-24 at 00:23:34 CST DEBUG com.bee.server.http.HttpSessionManger$1 75 lambda$run$1 - sessionManger remove sessionId="9acf7256-74df-404e-8bda-b901a98c2070"
