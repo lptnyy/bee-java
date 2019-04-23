@@ -1,9 +1,9 @@
-package com.bee.controlle;
+package com.bee.controller;
 
 import com.bee.server.Server;
-import com.bee.server.router.Controlle;
+import com.bee.server.router.Controller;
 
-public class OrderControlle implements Controlle {
+public class OrderController implements Controller {
 
     @Override
     public void init(Server server) {

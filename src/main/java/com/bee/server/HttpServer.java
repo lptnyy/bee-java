@@ -2,7 +2,7 @@ package com.bee.server;
 
 import com.bee.config.Config;
 import com.bee.server.router.Context;
-import com.bee.server.router.Controlle;
+import com.bee.server.router.Controller;
 import com.bee.server.router.Routers;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -62,7 +62,7 @@ public class HttpServer implements Server {
     }
 
     @Override
-    public Server Router(Controlle controlle) {
+    public Server Router(Controller controlle) {
         controlle.init(this);
         return this;
     }
