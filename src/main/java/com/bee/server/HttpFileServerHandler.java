@@ -1,5 +1,5 @@
 package com.bee.server;
-import com.bee.config.Config;
+import com.bee.properties.ServerProperties;
 import com.bee.server.http.*;
 import com.bee.server.router.Context;
 import com.bee.server.router.Routers;
@@ -58,7 +58,7 @@ public class HttpFileServerHandler extends
 
         // 获取token 生成session 存到session管理中去
         String cookie = context.getRequest().getHeader("Cookie");
-        if (cookie != null && Config.OPEN_SESSION) {
+        if (cookie != null && ServerProperties.OPEN_SESSION) {
             if (!httpSessionManger.isSession(cookie)){
                 HttpSession session = new Session();
                 session.setCreateTime(new Date().getTime());

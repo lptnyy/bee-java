@@ -1,6 +1,6 @@
 package com.bee.server;
 
-import com.bee.config.Config;
+import com.bee.properties.ServerProperties;
 import com.bee.server.router.Context;
 import com.bee.server.router.Controller;
 import com.bee.server.router.Routers;
@@ -18,8 +18,8 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class HttpServer implements Server {
-    private static Logger logger = LogManager.getLogger(HttpServer.class);
+public class JavaBee implements Server {
+    private static Logger logger = LogManager.getLogger(JavaBee.class);
     Routers routers = new Routers();
     public void startServer() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
@@ -44,8 +44,8 @@ public class HttpServer implements Server {
                                     new HttpFileServerHandler());// 业务逻辑
                         }
                     });
-            logger.info("server start ip:" + Config.IP + " port:" + Config.PORT);
-            ChannelFuture future = b.bind(Config.IP, Config.PORT).sync();
+            logger.info("server start ip:" + ServerProperties.IP + " port:" + ServerProperties.PORT);
+            ChannelFuture future = b.bind(ServerProperties.IP, ServerProperties.PORT).sync();
             future.channel().closeFuture().sync();
         } catch (Exception e) {
             e.printStackTrace();

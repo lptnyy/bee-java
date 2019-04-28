@@ -1,16 +1,15 @@
 package com.bee.server.http;
 
 import com.alibaba.fastjson.JSON;
-import com.bee.server.HttpServer;
+import com.bee.server.JavaBee;
 import lombok.Data;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.lang.reflect.Field;
 
 @Data
 public class Servlet {
-    private static Logger logger = LogManager.getLogger(HttpServer.class);
+    private static Logger logger = LogManager.getLogger(JavaBee.class);
     HttpRequest request;
     HttpResponse response;
     boolean checkPrint = false;

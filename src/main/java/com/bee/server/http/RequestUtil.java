@@ -1,5 +1,5 @@
 package com.bee.server.http;
-import com.bee.config.Config;
+import com.bee.properties.ServerProperties;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
 import io.netty.handler.codec.http.HttpRequest;
@@ -50,7 +50,7 @@ public class RequestUtil {
         httpRequest.setChx(chx);
         HttpRequest request = (HttpRequest) fullReq;
         HttpMethod method = request.method();
-        if (Config.OPEN_SESSION) {
+        if (ServerProperties.OPEN_SESSION) {
             if (request.headers().get(HttpHeaderNames.COOKIE) == null) {
                 HttpCookie httpCookie = new HttpCookie("sessionId", newGUID());
                 request.headers().set("Cookie", httpCookie);

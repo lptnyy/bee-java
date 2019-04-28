@@ -2,7 +2,6 @@ package com.bee.controller;
 
 import com.bee.server.Server;
 import com.bee.server.router.Controller;
-
 public class OrderController implements Controller {
 
     @Override

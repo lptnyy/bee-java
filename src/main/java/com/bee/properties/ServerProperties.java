@@ -1,6 +1,6 @@
-package com.bee.config;
+package com.bee.properties;
 
-public class Config {
+public class ServerProperties {
     public static boolean OPEN_SESSION = true;
     public static String CHAR_SET = "GBK";
     public static String IP ="localhost";

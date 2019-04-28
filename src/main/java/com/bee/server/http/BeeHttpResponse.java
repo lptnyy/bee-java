@@ -1,6 +1,6 @@
 package com.bee.server.http;
 
-import com.bee.config.Config;
+import com.bee.properties.ServerProperties;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -36,7 +36,7 @@ public class BeeHttpResponse implements HttpResponse {
         FullHttpResponse response = null;
         byte[] datas = new byte[0];
         try {
-            datas = value.getBytes(Config.CHAR_SET);
+            datas = value.getBytes(ServerProperties.CHAR_SET);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -44,7 +44,7 @@ public class BeeHttpResponse implements HttpResponse {
         response.headers().set(CONTENT_TYPE, "text/html");
         response.headers().set(CONTENT_LENGTH,response.content().readableBytes());
         response.headers().set(CONNECTION, HttpHeaderValues.KEEP_ALIVE);
-        if (Config.OPEN_SESSION) {
+        if (ServerProperties.OPEN_SESSION) {
             String cookie = httpRequest.getHeader("Cookie").split("=")[1].replace("\"", "");
             HttpCookie httpCookie = new HttpCookie("sessionId", cookie);
             response.headers().set(SET_COOKIE, httpCookie);

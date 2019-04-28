@@ -1,9 +1,8 @@
 package com.bee.server.http;
 
-import com.bee.config.Config;
+import com.bee.properties.ServerProperties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -31,7 +30,7 @@ public class HttpSessionManger {
         HttpSession session = getSession(cookie);
         if (session != null) {
             long dtime = new Date().getTime();
-            if (session.getCreateTime() > dtime - 1000 * 60 * Config.SESSION_TIME_OUT) {
+            if (session.getCreateTime() > dtime - 1000 * 60 * ServerProperties.SESSION_TIME_OUT) {
                 return false;
             }
         }
